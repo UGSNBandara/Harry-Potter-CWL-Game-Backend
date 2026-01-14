@@ -23,7 +23,7 @@ WHISPER_MODEL = "base"  # was "base" - faster for English-only
 SAMPLE_RATE = 16000
 CHUNK_SECONDS = 2      # how long to record per attempt (shorter -> lower latency)
 SILENCE_THRESHOLD = 0.01
-CONFIDENCE_THRESHOLD = 0.3
+CONFIDENCE_THRESHOLD = 0.05
 
 # Spells
 SPELLS = [
